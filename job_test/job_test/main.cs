@@ -82,5 +82,11 @@ namespace job_test
             statistic stat = new statistic();
             stat.Show();
         }
+
+        private void настройкиToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            config conf = new config();
+            conf.Show();
+        }
     }
 }
